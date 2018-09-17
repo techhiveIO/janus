@@ -1,0 +1,17 @@
+/**
+This file contains all the styles used for the header component
+ */
+.th-header {
+	display: flex;
+
+	min-height: 4rem;
+	padding: 0 5rem;
+
+
+	background: linear-gradient(to right, var(--primary-blue), var(--primary-blue-dark));
+	color: var(--text-on-dark);
+}
+
+.th-header .brand-name {
+	margin: auto 0;
+}

@@ -1,0 +1,10 @@
+:root {
+	--primary-blue: #42a5f5;
+	--primary-blue-dark: #0077c2;
+	--primary-blue-light: #80d6ff;
+
+	--color-white: #f9f9f9;
+
+	/* text colors */
+	--text-on-dark: var(--color-white);
+}
