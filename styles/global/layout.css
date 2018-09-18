@@ -1,0 +1,8 @@
+.grid {
+	display: grid;
+}
+
+.grid-row {
+	display: grid;
+	grid-auto-flow: column;
+}

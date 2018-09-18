@@ -7,11 +7,6 @@
         /*search for elements with a certain atrribute:*/
         file = elmnt.getAttribute("th-include-html");
         if (file) {
-            // console.info(`../${file}`, file, elmnt);
-            // elmnt.load(`../${file}`);
-
-
-            /*make an HTTP request using the attribute value as the file name:*/
             xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState === 4) {
@@ -21,7 +16,7 @@
                     elmnt.removeAttribute("th-include-html");
                     includeHTML();
                 }
-            }
+            };
             xhttp.open("GET", file, true);
             xhttp.send();
             /*exit the function:*/

@@ -3,8 +3,9 @@ This file contains all the styles used for the header component
  */
 .th-header {
 	display: flex;
+	justify-content: space-between;
 
-	min-height: 4rem;
+	min-height: 5rem;
 	padding: 0 5rem;
 
 

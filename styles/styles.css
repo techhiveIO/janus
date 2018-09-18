@@ -1,2 +1,20 @@
 @import "global/global.css";
 @import "components/components.css";
+@import "animations/animations.css";
+
+/*.card-deck {*/
+	/*padding: 4rem;*/
+/*}*/
+
+
+.flip-animation-test {
+	padding: 4rem;
+	grid-template-rows: 4rem auto;
+	grid-row-gap: 1rem;
+}
+
+.flip-animation-test .grid-row {
+	grid-column-gap: 1rem;
+	grid-auto-columns: 1fr;
+	/*grid-template-rows: 1fr;*/
+}

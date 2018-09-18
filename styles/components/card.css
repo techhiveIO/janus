@@ -1,0 +1,9 @@
+.th-card {
+	display: flex;
+
+	min-height: 12rem;
+	min-width: 10rem;
+	border-radius: 0.2rem;
+
+	box-shadow: var(--elevation-0);
+}

@@ -1,0 +1,19 @@
+
+.flip-container {
+	perspective: 1000px;
+}
+
+/* Horizontal Flip */
+.th-horizontal-flip.flip-container:hover .flipper, .flipper:hover {
+	transform: rotateY(180deg);
+	transition: .8s;
+}
+
+.flipper {
+	transition: 0.8s;
+	transform-style: preserve-3d;
+
+	width: 100%;
+
+	position: relative;
+}
